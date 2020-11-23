@@ -14,12 +14,12 @@ If you're looking for a more user-friendly abstraction, check out [Guzzle](http:
 
 ## Installation
 
-	$ composer require anlutro/curl
+	$ composer require june23rd1987/php-curl-oop
 
 ## Usage
 
 ```php
-$curl = new anlutro\cURL\cURL;
+$curl = new june23rd1987\cURL\cURL;
 
 $response = $curl->get('http://www.google.com');
 
